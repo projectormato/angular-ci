@@ -23,4 +23,4 @@ jobs:
           command: npm run test
       - run:
           name: build-project
-          command: npm run generate:gh-pages
+          command: npm run build
