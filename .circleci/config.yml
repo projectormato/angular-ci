@@ -29,4 +29,4 @@ jobs:
           command: sudo npm install -g now
       - run:
           name: deploy
-          command: now --prod --confirm -t ${ZEIT_TOKEN}
+          command: now --name angular-ci --prod --confirm -t ${ZEIT_TOKEN}
