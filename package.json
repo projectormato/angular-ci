@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "now-build": "chmod +x build.sh && ./build.sh",
-    "test": "ng test --watch=false",
     "build": "ng build",
+    "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
